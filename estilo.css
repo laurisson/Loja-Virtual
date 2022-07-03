@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    text-align: center;
+    background-image: linear-gradient(to top, rgb(17,54,71), rgb(20,147,220)  );
+    height: 150px;
+    border: 3px solid black;
+}
+
+h1{
+    color: white;
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 0px rgb(17,54,71);
+}
+
+.p1{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 0px rgb(20,147,220);
+    font-weight: bolder;
+    
+}
+
+
+#divs{
+    display: inline-block;
+    margin: 20px;
+    
+}
+#div{
+    display: inline-block;
+   margin: 15px;
+   
+}
+
+#info{
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+
+#valor{
+    display: inline-block;
+    color: rgb(65, 64, 64);
+    font-size: 18px;
+    font-weight: 540;
+}
+
+#btn:hover{
+    
+    cursor: pointer;
+    width: 20px;
+    
+}
+
+#imagen{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background: #cccc;
+}
+
+footer{
+    background-color: #333;
+    height:auto;
+    width: auto;
+    padding: 20px;
+}
+  
+
+#reds{
+    color: #fff;
+    margin: 0px 50px 10px ;
+}
+
+#box{
+    text-align: center;
+}
+
+.rede{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    display: inline;
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s linear;
+}
+
+.rede:hover{
+    color: gray;
+}
+
+
+@media (max-width:499px){
+
+header{
+    
+    height: auto;
+}    
+    #divs{
+        display: inline-block;
+        margin-left: 25%;
+}
+}
+
+@media (max-width:365px){
+
+    header{
+        width: 359px;
+        height: auto;
+    }    
+    h1{
+        font-size: 25px;
+    }
+    .p1{
+        font-size: 20px;
+    }
+        #divs{
+            display: inline-block;
+            margin-left: 25%;      
+    }
+    }
